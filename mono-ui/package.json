@@ -6,7 +6,7 @@
   "typings": "build/index.d.ts",
   "scripts": {
     "prepare": "tsc -p tsconfig.build.json",
-    "start": "tsc -p tsconfig.build.json -w",
+    "start": "tsc -p tsconfig.build.json --watch --preserveWatchOutput",
     "test": "react-scripts-ts test --env=jsdom"
   },
   "keywords": [],
@@ -19,16 +19,5 @@
     "react": ">=15",
     "react-dom": ">=15"
   },
-  "devDependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "@types/jest": "^22.1.1",
-    "@types/node": "^8.0.28",
-    "@types/react": "^16.0.35",
-    "@types/react-dom": "^16.0.3",
-    "react-scripts-ts": "^2.13.0",
-    "tslint": "^5.9.1",
-    "tslint-react": "^3.4.0",
-    "typescript": "2.6.2"
-  }
+  "devDependencies": {}
 }
