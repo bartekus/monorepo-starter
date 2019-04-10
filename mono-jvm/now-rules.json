@@ -1,6 +1,0 @@
-{
-  "rules": [{
-    "pathname": "/**",
-    "dest": "mono-api.now.sh"
-  }]
-}
