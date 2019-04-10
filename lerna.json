@@ -1,5 +1,5 @@
 {
-  "lerna": "2.8.0",
+  "lerna": "3.13.1",
   "packages": ["mai-ui", "mai-common", "mai-web", "mai-admin", "mai-central"],
   "npmClient": "yarn",
   "useWorkspaces": true,

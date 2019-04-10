@@ -5,6 +5,17 @@
     "paths": {
       "@mono/common/*": ["./mono/common/src"],
       "@mono/ui/*": ["./mono/ui/src"]
-    }
-  }
+    },
+    "noImplicitAny": false,
+    "skipLibCheck": true
+  },
+  "include": [
+    "mono-common/src/**/*",
+    "mono-cra/src/**/*",
+    "mono-razzle/src/**/*",
+    "mono-ui/src/**/*"
+  ],
+  "exclude": [
+    "**/node_modules/*"
+  ]
 }

@@ -5,7 +5,7 @@
  * @param func a function
  * @param wait time
  */
-export function throttle(this: any, func: Function, wait: Number) {
+export function throttle(this: any, func: Function, wait: number) {
   let timeout: number | null = null;
   let callbackArgs: IArguments | null = null;
   const context = this;
@@ -18,7 +18,7 @@ export function throttle(this: any, func: Function, wait: Number) {
   return function() {
     if (!timeout) {
       callbackArgs = arguments;
-      timeout = setTimeout(later, wait);
+      timeout = window.setTimeout(later, wait);
     }
   };
 }
